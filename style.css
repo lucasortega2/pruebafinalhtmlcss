@@ -1,0 +1,1331 @@
+* {
+box-sizing: border-box;
+font-family: 'Taviraj', serif;
+}
+.body {
+background: #F7F6F4;
+display: flex;
+flex-direction: column;
+width: 1440px;
+margin: auto;
+}
+
+
+.header {
+height: 100px;
+min-width: min-content;
+color: #333;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.5px;
+margin-bottom: 40px;
+}
+.header-1 {
+display: flex;
+justify-content: space-around;  
+margin: 20px 0 250px 0;
+height: 50px;
+flex-wrap: wrap;
+min-width: 1000px;
+}
+.header-1-matoa
+{
+width: 178px;
+height: 22px;
+text-align: center;
+margin: auto;
+}
+.header-1-medio {
+display: flex;
+justify-content: space-evenly;
+width: 45%;
+color: #333;
+font-family: Taviraj;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.4px;
+}
+.header-1-final {
+display: flex;
+width: 25%;
+justify-content: space-around;
+align-items: center;
+color: #333;
+font-family: Taviraj;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.36px;
+}
+.header-1-final-login svg {
+margin: auto;
+width: 32px;
+height: 32px;
+flex-shrink: 0;
+}
+.header-1-final-login {
+display: flex;
+}
+.carrito-circulo {
+height: 50px;
+width: 50px;
+}
+#circulo {
+position: absolute;
+fill: #F1DDC9;
+}
+#carrito {
+position: relative;
+top: 10px;
+left: 10px;
+}
+.reloj-way-general {
+margin: auto;
+height: 510px;
+background: #F1DDC9;
+position: relative;
+min-width: 80%;
+}
+.reloj-way {
+display: flex;
+min-width: 1100px;
+height: 510px;
+}
+.reloj-way_imagen-reloj {
+width: 30%;
+
+}
+.reloj-way_imagen-reloj img {
+width: 325px;
+height: 467px;
+flex-shrink: 0;
+position: absolute;
+top: 116px;
+left: 14px;
+}
+.reloj-way_medio {
+padding-top: 40px ;
+width: 60%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+#way-kambas {
+width: 70%;
+color: #333;
+font-size: 60px;
+font-style: normal;
+font-weight: 500;
+line-height: 80px;
+letter-spacing: 1.2px;
+margin: 0px;
+position: relative;
+}
+#way-kambas::after {
+background-color: rgba(0, 0, 0, 0.774);
+content: "";
+width: 20%;
+height: 1px;
+position: absolute;
+top: 100%;
+left: 0
+}
+.reloj-way_medio_medio {
+width: 70%;
+color: #333;
+font-family: 'Nunito Sans', sans-serif;font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.48px;
+}
+.reloj-way_medio_medio p:last-child {
+font-weight: 600;
+}
+.reloj-way_add-to-car {
+display: flex;
+width: 70%;
+justify-content: space-around;
+padding-right: 150px;
+}
+.reloj-way_add-to-car_1 {
+color: #FFF;
+font-family: Taviraj;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.4px;
+display: flex;
+align-items: center;
+background-color: #D84727;
+width: 230px;
+height: 70px;
+justify-content: center;
+}
+
+.reloj-way_add-to-car_2 {
+display: flex;
+align-items: center;
+border: 2px solid #D84727;
+width: 150px;
+height: 70px;
+justify-content: center;
+}
+.reloj-way_add-to-car_2 svg {
+    width: 100px;
+    height: 25px;
+}
+.reloj-way_final {
+display: flex;
+width: 10%;
+justify-content: end;
+}
+.reloj-way-final_bottom {
+display: flex;
+flex-direction: row;
+justify-content: end;
+position: absolute;
+bottom: -25px;
+flex-shrink: 0;
+}
+
+.reloj-way_bottom1 {
+width: 60px;
+height: 60px;
+flex-shrink: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 2px solid #D84727;
+}
+.reloj-way_bottom2 {
+width: 60px;
+height: 60px;
+flex-shrink: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 2px solid #D84727;
+background: #D84727;
+}
+.reloj-way_bottom1 svg {
+width: 32px;
+height: 32px;
+flex-shrink: 0;
+
+}
+.lentes-reloj {
+width: 100%;
+margin-top: 100px;
+display: flex;
+height: 270px;
+justify-content: space-around;
+}
+
+.lentes-reloj_lentes {
+width: 540px;
+height: 270px;
+flex-shrink: 0;
+display: flex;
+justify-content: center;
+background-color:#FFFFFF ;
+}
+.lentes-reloj_lentes-1 {
+width: 90%;
+display: flex;
+flex-direction: column;
+align-items: start;
+
+}
+.luxurious-everywear {
+display: flex;
+margin-top: 10px ;
+margin-bottom: 28px;
+}
+#luxuriousp {
+color: #777;
+font-family: Nunito;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 0.48px;
+width: 345px;
+height: 50px;
+flex-shrink: 0;    
+}
+.luxurious-everywear p {
+color: #777;
+font-family: Nunito;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 0.48px;
+}
+#eyewear {
+color: #333;
+font-family: Taviraj;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: 0.84px;
+margin-left: 6px;
+}
+#discovernow{
+color: #333;
+font-family: Taviraj;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.48px;
+position: relative;
+width: max-content;
+}
+#discovernow::after {
+content: "";
+width: 100%;
+height: 1px;
+background-color: black;
+position: absolute;
+top: 100%;
+left: 0;
+}
+#luxurious {
+color: #333;
+font-family: Taviraj;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 114.286% */
+letter-spacing: 0.84px;
+}
+.lentes-reloj_lentes-1 p{
+margin-bottom: 0;
+margin-top: 10px ;
+font-size: 16px;
+}
+.lentes-reloj_lentes-1 img {
+position: relative;
+left: 169px;
+top: -26px;
+width: 330px;
+height: 143px;
+flex-shrink: 0;
+}
+.lentes-reloj_reloj {
+width: 540px;
+height: 270px;
+flex-shrink: 0;
+background-color: #FFFFFF;
+display: flex;
+justify-content: center;
+}
+.lentes-reloj_reloj-1 {
+width: 90%;
+display: flex;
+flex-direction: column;
+align-items: start;
+}
+.relojs-1-p {
+display: flex;
+width: 10px;
+}
+.relojs-1-p p {
+margin-top: 20px;
+}
+.lentes-reloj-p {
+width: 345px;
+height: 50px;
+flex-shrink: 0;
+color: #777;
+font-family: Nunito;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 0.48px;
+}
+.lentes-reloj-p p {
+    margin: 0;
+}
+
+.lentes-reloj_reloj-1 img {
+width: 155px;
+height: 152px;
+flex-shrink: 0;    
+position: relative;
+left: 336px;
+top: -77px;
+width: 150px;
+}
+
+.Monthlydeals {
+color: #333;
+font-family: 'Taviraj';
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 111.111% */
+letter-spacing: 0.72px;
+margin-bottom: 10px;
+margin-left: 80px;
+position: relative;
+width: max-content;
+}
+.Monthlydeals p::after {
+width: 50%;
+height: 1px;
+content: "";
+background-color: black;
+position: absolute;
+top: 75%;
+left: 0;
+}
+
+.Monthlydeals-watches {
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+width: 1440px;
+height: 505px;
+flex-shrink: 0;
+}
+.Monthlydeals-watches img {
+width: 221px;
+height: 221px;
+flex-shrink: 0;
+}
+.Monthlydeals-watches p {
+margin: 0;
+}
+.m1 {
+margin: 0;
+width: 255px;
+height: 412px;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+justify-content: start;
+}
+.m2 {
+margin: 0;
+width: 255px;
+height: 412px;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+justify-content: start;
+}
+.m3 {
+margin: 0;
+width: 255px;
+height: 412px;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+justify-content: start;
+}
+.m4 {
+margin: 0;
+width: 255px;
+height: 412px;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+justify-content: start;
+}
+.m1-p :first-child{
+color: #333;
+font-family: Taviraj;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 133.333% */
+}
+.m1-p :nth-child(2) {
+color: #777;
+font-family: Taviraj;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+.m1-p :nth-child(3) {
+color: #777;
+font-family: Taviraj;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+text-decoration: line-through red;
+}
+.m1-p :nth-child(4) {
+color: #333;
+font-family: Taviraj;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 133.333% */
+}
+.m2-p :first-child{
+color: #333;
+font-family: Taviraj;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 133.333% */
+}
+.m2-p :nth-child(2) {
+color: #777;
+font-family: Taviraj;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+.m2-p :nth-child(3) {
+color: #777;
+font-family: Taviraj;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+text-decoration: line-through red;
+}
+.m2-p :nth-child(4) {
+color: #333;
+font-family: Taviraj;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 133.333% */
+}
+.m3-p :first-child{
+color: #333;
+font-family: Taviraj;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 133.333% */
+}
+.m3-p :nth-child(2) {
+color: #777;
+font-family: Taviraj;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+.m3-p :nth-child(3) {
+color: #777;
+font-family: Taviraj;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+text-decoration: line-through red;
+}
+.m3-p :nth-child(4) {
+color: #333;
+font-family: Taviraj;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 133.333% */
+}
+.m4-p :first-child{
+color: #333;
+font-family: Taviraj;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 133.333% */
+}
+.m4-p :nth-child(2) {
+color: #777;
+font-family: Taviraj;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+.m4-p :nth-child(3) {
+color: #777;
+font-family: Taviraj;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+text-decoration: line-through red;
+}
+.m4-p :nth-child(4) {
+color: #333;
+font-family: Taviraj;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 133.333% */
+}
+.m2-p_add-to-car {
+display: flex;
+justify-content: start;
+margin-top: 10px;
+}
+.m2-p_add-to-car svg {
+width: 40px;
+height: 40px;
+background-color: white;
+display: flex;
+border: solid red 1px;
+padding: 6px;
+margin-right: 10px;
+}
+.m2-p_add-to-car p {
+padding: 0px 40px 0px 40px;
+background-color: red;
+color: #FFF;
+font-family: Taviraj;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 1px;
+display: flex;
+align-items: center;
+}
+.recent-news {
+display: flex;
+justify-content: space-around;
+margin-top:100px ;
+margin-bottom: 200px;
+}
+
+.recents-where {
+display: flex;
+flex-direction: column;
+justify-content:space-around ;
+height: 100%;
+}
+.recent-where p {
+margin: 0;
+padding: 0;
+}
+#recent-news-p {
+color: #333;
+font-family: Taviraj;
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 111.111% */
+letter-spacing: 0.72px;
+width: 100%;
+margin-bottom: 100px;
+position: relative;
+}
+#recent-news-p::after {
+width: 40%;
+height: 1px;
+background-color: black;
+content: "";
+position: absolute;
+top: 120%;
+left: 0;
+}
+.recent-news_where {
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.recent-where:nth-of-type(1) {
+color: #777;
+font-family: Taviraj;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 200% */
+letter-spacing: 0.4px;
+}
+.recent-where:nth-of-type(2) {
+color: #333;
+font-family: Taviraj;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 48px; /* 133.333% */
+letter-spacing: 0.72px;
+margin-bottom: 25px;
+}
+.recent-where:nth-of-type(3) {
+display: flex;
+align-items: center;
+justify-content: center;
+color: #D84727;
+font-family: Taviraj;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.32px;
+border: solid 2px red;
+width: 160px;
+height: 58px;
+flex-shrink: 0;
+text-align: center;
+}
+
+.recent-news_img {
+background-color:#F1DDC9;
+position: relative;
+width: 640px;
+height: 458px;
+flex-shrink: 0;
+}
+.recent-news_img img {
+width: 580px;
+height: 458px;
+flex-shrink: 0;
+position: relative;
+top: 54px;
+right: 179px;
+}
+.tipos-reloj {
+display: flex;
+width: 1140px;
+justify-content: center;
+margin: auto;
+}
+.tipos-reloj p {
+position: relative;
+width: max-content;
+}
+.tipos-reloj p::after {
+background-color: black;
+width: 15%;
+height: 1px;
+content: "";
+position: absolute;
+top: 100%;
+left: 0;}
+
+.tipos-reloj p {
+width: 33.3%;
+color: #333;
+font-family: Taviraj;
+font-size: 36px;
+font-style: normal;
+font-weight: 00;
+line-height: 40px; /* 111.111% */
+letter-spacing: 0.72px;
+}
+.reloj-central-cuadro {
+display: flex;
+flex-flow: wrap;
+width: 80%;
+justify-content: center;
+margin: auto;
+}
+.tipos-reloj-central {
+display: flex;
+width: 33.3%;
+height: 200px;
+}
+.imagen-tipo-reloj {
+width: 131px;
+height: 131px;
+flex-shrink: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #F1DDC9;
+margin-right:30px ;
+}
+.imagen-tipo-reloj img {
+width: 68.067px;
+height: 100px;
+flex-shrink: 0;
+display: flex;
+flex-shrink: 0;
+}
+#a {
+color: #333;
+font-family: Taviraj;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 133.333% */
+letter-spacing: 0.48px;
+}
+#segundo-texto {
+color: #222;
+font-family: Taviraj;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px; /* 142.857% */
+letter-spacing: 0.56px;    
+}
+#segundo-texto-descuento {
+color: #777;
+font-family: Taviraj;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+text-decoration: line-through red;
+}
+.rara .imagen-tipo-reloj img {
+width: 113px;
+height: 55px;
+flex-shrink: 0;
+}
+.see-more {
+display:flex;
+justify-content: center;
+color: #D84727;
+margin: auto;
+font-family: Taviraj;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.6px;
+border: 1px solid #D84727;
+padding: 15px 75px;
+}
+.testimonials {
+width:100% ;
+margin-top: 100px;
+display: flex;
+}
+
+.img-testimonials {
+background: #F1DDC9;
+width: 515px;
+height: 300px;
+flex-shrink: 0;
+
+}
+.img-testimonials img {
+width: 515px;
+height: 300px;
+flex-shrink: 0;
+position: relative;
+top: 64px;
+left: 151px;
+}
+.testimonials-p {
+margin: auto;
+width: 450px;
+}
+.testimonials-p h2 {
+color: #333;
+font-family: Taviraj;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px; /* 111.111% */
+letter-spacing: 0.72px;
+position: relative;
+width: max-content;
+}
+.testimonials-p h2::after {
+content: "";
+background-color: black;
+height: 1px;
+width: 60%;
+position: absolute;
+top: 100%;
+left: 0;
+}
+.testimonials-p h2 + * {
+color: #333;
+font-family: Nunito;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+letter-spacing: 0.48px;
+} 
+
+.testimonials-p h3 {
+color: #333;
+font-family: Taviraj;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px; /* 133.333% */
+letter-spacing: 0.72px;
+}
+.testimonials-p h3 + * {
+color: #777;
+font-family: Taviraj;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 32px; /* 200% */
+letter-spacing: 0.48px;
+}
+.testimonials-flechas {
+margin-top: 70px;
+margin-left: 150px;
+}
+.instagram p {
+color: #333;
+font-family: Taviraj;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px; /* 111.111% */
+letter-spacing: 0.72px;
+position: relative;
+width: max-content;
+margin-left: 165px;
+}
+.instagram p::after {
+position: absolute;
+width: 70%;
+height: 1px;
+background-color: black;
+content: "";
+top: 120%;
+left: 0;
+}
+.instagram-fotos {
+display: flex;
+justify-content: center;
+margin-bottom: 100px;
+}
+.instagram-fotos img {
+width: 222px;
+height: 222px;
+flex-shrink: 0;
+}
+.footer {
+
+}
+
+.footer-1 {
+background: #DA5E42;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+width: 1440px;
+height: 273px;
+flex-shrink: 0;
+}
+.footer-1 img {
+width: 100px;
+height: 100px;
+flex-shrink: 0;
+margin: 0 75px;
+}
+.footer2 {
+background: #D84727;
+display: flex;
+justify-content: space-evenly;
+align-items: start;
+width: 100%;
+height:max-content ;
+}
+.footer2 h2 {
+color: #FFF;
+font-family: Taviraj;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.48px;
+}
+.footer2 p {
+color: white;
+color: #FFF;
+font-family: Taviraj;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 200% */
+letter-spacing: 0.48px;
+}
+.footer2 img {  
+display: block;
+margin-block-start: 2.5em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+}
+.footer2 h2 {
+position: relative;
+width: max-content;
+}
+.footer h2::after {
+position: absolute;
+width: 50%;
+height: 1px;
+top: 100%;
+left: 0;
+content: "";
+background-color: white;
+}
+.footer-2-1 {
+height: max-content;
+}
+.footer2-1-text p{
+margin: 0;
+}
+.footer-2-1 h3 {
+margin-top: 30px;
+margin-bottom: 0;
+color: #FFF;
+font-family: Taviraj;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.4px;
+}
+.footer2-1-text2 h3{
+color: #FFF;
+font-family: Taviraj;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.4px;
+margin-bottom: 0;
+}
+.footer2-1-text2 p {
+width: 150px;
+margin-top: 10px;
+}
+.footer-2-2 {
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.footer-2-agrupacion {
+display: flex;
+align-items: start;
+}
+.footer-2-2-segundalinea {
+height: 250px;
+display: flex;
+flex-direction: column;
+margin-left: 50px;
+justify-content: space-between;
+}
+.footer-2-2-segundalinea p {
+}
+.footer-2-2-primeralinea {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+.footer-2-2-primeralinea p {
+color: #FFF;
+font-family: Taviraj;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.4px;
+width: 50%;
+}
+.footer-2-svg {
+display: flex;
+justify-content: space-evenly;
+}
+
+@media screen and (max-width: 500px){
+* {
+    font-size: small;
+}
+.body {
+    margin: 0;
+    width:100%;
+}
+.header {
+    width: 100%;
+}
+.header-1{
+    height: max-content;
+    min-width:100%;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.header-1-matoa {
+    margin: 0;
+    min-width:200px;
+    height: max-content;
+    margin: auto;
+}
+.header-1-medio {
+    margin: 0;
+    min-width:max-content;
+    height: max-content;
+    margin: auto;
+}
+.header-1-medio p {
+margin: 10px;
+}
+.header-1-final {
+
+    min-width:max-content;
+    height: max-content;
+}
+
+.header-1-final * {
+    margin: 5px;
+}
+.header-1-final  > svg {
+    margin-right:150px ;
+}
+.reloj-way-general {
+    margin-top:100px ;
+}
+.reloj-way {
+    min-width: 100%;
+}
+.reloj-way-general {
+    width: 100%;
+}
+.reloj-way_imagen-reloj img {
+width: 100px;
+height: 100px;
+}
+#way-kambas {
+    font-size: medium;
+    line-height: 30px;
+}
+.reloj-way_add-to-car {
+    padding: 0;
+    position: absolute;
+    top: 423px;
+    right: 164px;
+    width: 186px;
+    height: max-content;
+}
+.reloj-way_add-to-car_1 {
+    height: 50px;
+}
+.reloj-way_add-to-car_2 {
+    height: 50px;
+}
+
+.reloj-way-final_bottom {
+    right: 10px;
+    top: 423px;
+    height: max-content;
+}
+.reloj-way_bottom1 {
+    height: 50px;
+}
+.reloj-way_bottom2 {
+    height: 50px;
+}
+
+.lentes-reloj {
+    flex-direction: column;
+    margin-top: 150px;
+}
+.lentes-reloj_lentes {
+    width: 100%;
+}
+#luxurious {
+    font-size: medium;
+}
+#eyewear {
+    font-size: medium;
+}
+.lentes-reloj img {
+    width: 150px;
+    height: 80px;
+}
+.lentes-reloj_reloj-1 img {
+    width: 100px;
+    left: 197px;
+    top: -49px;
+}
+.Monthlydeals {
+    margin-top: 150px;
+}
+.Monthlydeals-watches {
+    width: 100%;
+    flex-flow: wrap;
+    flex-direction: row;
+    height: 280px;
+    align-items: start;
+}
+.Monthlydeals-watches img {
+    width: 50px;
+    height: 50px;
+}
+.m1 {
+    width: 50px;
+    height: 50px;
+}
+.m2 {
+    width: 50px;
+    height: 50px;
+}
+.m3 {
+    width: 50px;
+    height: 50px;
+}
+.m4 {
+    width: 50px;
+    height: 50px;
+}
+.Monthlydeals-watches p:first-child {
+    font-size: medium;
+}
+.Monthlydeals-watches p:nth-child(4) {
+    font-size: medium;
+}
+.m2-p_add-to-car {
+    position: relative;
+    width: max-content;
+    top: 32px;
+    left: -13px;
+}
+.m2-p_add-to-car p {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    font-size: medium;
+    padding: 0;
+    width: 90px;
+    margin: auto;
+    text-align: center;
+}
+.m2-p_add-to-car svg {
+    position: absolute;
+    left: 25px;
+    top: -40px;
+}
+.recent-news {
+    margin-top: 150px;
+    flex-direction: column;
+    height: 570px;
+    margin-bottom: 0;
+}
+.recent-news_img {
+    width: 150px;
+    height: 150px;
+    top: -208px;
+    left: 185px;
+}
+.recent-news_img img {
+    width: 150px;
+    height: 150px;
+    top: 30px;
+    right: -30px;
+}
+#recent-news-p {
+    margin: 0;
+  
+}
+.tipos-reloj {
+    width: 100%;
+}
+.tipos-reloj p  {
+    font-size: medium;
+}
+.reloj-central-cuadro {
+    width: 100%;
+}
+.reloj-central-cuadro img {
+    width: 70px;
+    height: 70px;
+}
+#a {
+    font-size: medium;
+    margin: 0;
+}
+#segundo-texto {
+    font-size: medium;
+    margin: 0;
+}
+.segundo-texto-descuento {
+    margin: 0;
+    font-size: medium;
+}
+.tipos-reloj-central {
+    flex-direction: column;
+    height: 285px;
+}
+.see-more {
+    font-size: large;
+}
+
+.testimonials {
+    flex-direction: column-reverse;
+
+}
+.testimonials-p {
+    width: 90%;
+}
+.img-testimonials {
+    width: 300px;
+    height: 200px;
+}
+.img-testimonials img {
+    width: 300px;
+    height: 200px;
+    left: 71px;
+}
+.instagram p {
+    margin-left: 100px;
+}
+.instagram-fotos {
+    width: 100%;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.instagram-fotos img {
+    width: 190px;
+    height: 190px;
+}
+
+.footer-1 {
+    width: 100%;
+    height: max-content;
+}
+.footer-1 img {
+    margin: 15px;
+    width: 75px;
+    height: 75px;
+}
+
+
+.footer2 {
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.footer2 h2, h3 {
+    font-size: medium
+}
+.footer2 p {
+    font-size: small;
+}
+.footer-2-2-segundalinea {
+    justify-content: start;
+    height: max-content;
+}
+.footer-2-svg {
+    margin: 20px;
+}
+.footer-2-3 {
+    margin-right: 30px;
+}
+}
