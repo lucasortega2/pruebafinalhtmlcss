@@ -2,14 +2,29 @@
 box-sizing: border-box;
 font-family: 'Taviraj', serif;
 }
+body {
+    display: flex;
+    justify-content: center;
+}
 .body {
 background: #F7F6F4;
 display: flex;
 flex-direction: column;
 width: 1440px;
-margin: auto;
-}
+align-items: center;
 
+}
+li {
+    list-style: none;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
 
 .header {
 height: 100px;
@@ -24,20 +39,21 @@ margin-bottom: 40px;
 }
 .header-1 {
 display: flex;
-justify-content: space-around;  
+justify-content: space-between;  
 margin: 20px 0 250px 0;
 height: 50px;
 flex-wrap: wrap;
-min-width: 1000px;
+width: 1110px;
 }
 .header-1-matoa
 {
 width: 178px;
 height: 22px;
 text-align: center;
-margin: auto;
+margin: auto 0;
 }
 .header-1-medio {
+    margin: auto;
 display: flex;
 justify-content: space-evenly;
 width: 45%;
@@ -51,7 +67,6 @@ letter-spacing: 0.4px;
 }
 .header-1-final {
 display: flex;
-width: 25%;
 justify-content: space-around;
 align-items: center;
 color: #333;
@@ -61,15 +76,17 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 letter-spacing: 0.36px;
+width:25%;
+margin: auto;
 }
 .header-1-final-login svg {
-margin: auto;
 width: 32px;
 height: 32px;
 flex-shrink: 0;
+margin: auto 5px;
 }
 .header-1-final-login {
-display: flex;
+    display: flex;
 }
 .carrito-circulo {
 height: 50px;
@@ -89,7 +106,7 @@ margin: auto;
 height: 510px;
 background: #F1DDC9;
 position: relative;
-min-width: 80%;
+width: 1110px;
 }
 .reloj-way {
 display: flex;
@@ -167,6 +184,10 @@ background-color: #D84727;
 width: 230px;
 height: 70px;
 justify-content: center;
+border: red;
+}
+.reloj-way_add-to-car_1 button {
+    background-color: transparent;
 }
 
 .reloj-way_add-to-car_2 {
@@ -176,6 +197,7 @@ border: 2px solid #D84727;
 width: 150px;
 height: 70px;
 justify-content: center;
+background: #F1DDC9;
 }
 .reloj-way_add-to-car_2 svg {
     width: 100px;
@@ -193,7 +215,23 @@ justify-content: end;
 position: absolute;
 bottom: -25px;
 flex-shrink: 0;
+padding: 0;
+border: red;
 }
+.reloj-way-final_bottom button{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    position: absolute;
+    bottom: -25px;
+    flex-shrink: 0;
+    color: none;
+    background-color: #000;
+    list-style: none;
+    text-decoration: none;
+    border: 0 ;
+    padding: 0;
+    }
 
 .reloj-way_bottom1 {
 width: 60px;
@@ -221,11 +259,11 @@ flex-shrink: 0;
 
 }
 .lentes-reloj {
-width: 100%;
+width: 1110px;
 margin-top: 100px;
 display: flex;
 height: 270px;
-justify-content: space-around;
+justify-content: space-between;
 }
 
 .lentes-reloj_lentes {
@@ -377,12 +415,14 @@ font-weight: 700;
 line-height: 40px; /* 111.111% */
 letter-spacing: 0.72px;
 margin-bottom: 10px;
-margin-left: 80px;
 position: relative;
-width: max-content;
+width: 1110px;
+}
+.Monthlydeals p {
+    text-align: start;
 }
 .Monthlydeals p::after {
-width: 50%;
+width: 10%;
 height: 1px;
 content: "";
 background-color: black;
@@ -394,8 +434,8 @@ left: 0;
 .Monthlydeals-watches {
 display: flex;
 align-items: center;
-justify-content: space-evenly;
-width: 1440px;
+justify-content: space-between;
+width: 1110px;
 height: 505px;
 flex-shrink: 0;
 }
@@ -415,7 +455,15 @@ flex-shrink: 0;
 display: flex;
 flex-direction: column;
 justify-content: start;
+background-color: #FFF;
+align-items: center;
+position: relative;
 }
+.m1 img {
+    position: relative;
+    top: -40px;
+}
+
 .m2 {
 margin: 0;
 width: 255px;
@@ -424,6 +472,13 @@ flex-shrink: 0;
 display: flex;
 flex-direction: column;
 justify-content: start;
+background-color: #FFF;
+align-items: center;
+position: relative;
+}
+.m2 img {
+    position: relative;
+    top: -40px;
 }
 .m3 {
 margin: 0;
@@ -433,6 +488,13 @@ flex-shrink: 0;
 display: flex;
 flex-direction: column;
 justify-content: start;
+background-color: #FFF;
+align-items: center;
+position: relative;
+}
+.m3 img {
+    position: relative;
+    top: -40px;
 }
 .m4 {
 margin: 0;
@@ -442,6 +504,13 @@ flex-shrink: 0;
 display: flex;
 flex-direction: column;
 justify-content: start;
+background-color: #FFF;
+align-items: center;
+position: relative;
+}
+.m4 img {
+    position: relative;
+    top: -40px;
 }
 .m1-p :first-child{
 color: #333;
@@ -580,6 +649,18 @@ display: flex;
 justify-content: start;
 margin-top: 10px;
 }
+.m2-p_add-to-car button:first-child {
+    border: none;
+    background-color: #FFF;
+    padding: 10px 5px;
+    width: max-content;
+}
+.m2-p_add-to-car button:last-child {
+    border: none;
+    background-color: #fff;
+}
+
+
 .m2-p_add-to-car svg {
 width: 40px;
 height: 40px;
@@ -601,23 +682,31 @@ line-height: 24px;
 letter-spacing: 1px;
 display: flex;
 align-items: center;
+height: 40px;
 }
 .recent-news {
 display: flex;
-justify-content: space-around;
+justify-content: space-between;
 margin-top:100px ;
 margin-bottom: 200px;
+width: 1110px;
 }
 
 .recents-where {
 display: flex;
 flex-direction: column;
-justify-content:space-around ;
+justify-content: space-around ;
 height: 100%;
 }
 .recent-where p {
 margin: 0;
 padding: 0;
+}
+.recent-where button {
+    border: transparent;
+    background-color: #F7F6F4;
+    width: 100%;
+    height: 100%;
 }
 #recent-news-p {
 color: #333;
@@ -688,6 +777,7 @@ position: relative;
 width: 640px;
 height: 458px;
 flex-shrink: 0;
+left: 165px;
 }
 .recent-news_img img {
 width: 580px;
@@ -699,17 +789,18 @@ right: 179px;
 }
 .tipos-reloj {
 display: flex;
-width: 1140px;
-justify-content: center;
+width: 1110px;
+justify-content: space-between;
 margin: auto;
 }
 .tipos-reloj p {
+    width: max-content;
 position: relative;
-width: max-content;
+margin-right: 170px;
 }
 .tipos-reloj p::after {
 background-color: black;
-width: 15%;
+width: 50%;
 height: 1px;
 content: "";
 position: absolute;
@@ -717,7 +808,6 @@ top: 100%;
 left: 0;}
 
 .tipos-reloj p {
-width: 33.3%;
 color: #333;
 font-family: Taviraj;
 font-size: 36px;
@@ -729,7 +819,7 @@ letter-spacing: 0.72px;
 .reloj-central-cuadro {
 display: flex;
 flex-flow: wrap;
-width: 80%;
+width: 1110px;
 justify-content: center;
 margin: auto;
 }
@@ -755,6 +845,10 @@ flex-shrink: 0;
 display: flex;
 flex-shrink: 0;
 }
+.tipos-reloj-central-1 p {
+    margin: 5px;
+}
+
 #a {
 color: #333;
 font-family: Taviraj;
@@ -800,6 +894,13 @@ line-height: normal;
 letter-spacing: 0.6px;
 border: 1px solid #D84727;
 padding: 15px 75px;
+background-color: #F7F6F4;
+height: 70px;
+align-items: center;
+}
+.see-more button {
+    border: none;
+    background-color: red;
 }
 .testimonials {
 width:100% ;
@@ -1048,8 +1149,10 @@ justify-content: space-evenly;
 * {
     font-size: small;
 }
+body {
+    width: 100%;
+}
 .body {
-    margin: 0;
     width:100%;
 }
 .header {
@@ -1057,29 +1160,30 @@ justify-content: space-evenly;
 }
 .header-1{
     height: max-content;
-    min-width:100%;
+    width:100%;
     flex-wrap: nowrap;
     flex-direction: column;
 }
 .header-1-matoa {
     margin: 0;
-    min-width:200px;
+    width:200px;
     height: max-content;
     margin: auto;
 }
 .header-1-medio {
     margin: 0;
-    min-width:max-content;
+    width: 100%;
     height: max-content;
     margin: auto;
 }
-.header-1-medio p {
+.header-1-medio li {
 margin: 10px;
 }
 .header-1-final {
-
-    min-width:max-content;
+    width:100%;
     height: max-content;
+    display: flex;
+    justify-content: space-between;
 }
 
 .header-1-final * {
@@ -1089,7 +1193,7 @@ margin: 10px;
     margin-right:150px ;
 }
 .reloj-way-general {
-    margin-top:100px ;
+    margin-top:50px ;
 }
 .reloj-way {
     min-width: 100%;
@@ -1110,7 +1214,7 @@ height: 100px;
     position: absolute;
     top: 423px;
     right: 164px;
-    width: 186px;
+    width: 200px;
     height: max-content;
 }
 .reloj-way_add-to-car_1 {
@@ -1118,6 +1222,7 @@ height: 100px;
 }
 .reloj-way_add-to-car_2 {
     height: 50px;
+    width: 50%;
 }
 
 .reloj-way-final_bottom {
@@ -1134,7 +1239,8 @@ height: 100px;
 
 .lentes-reloj {
     flex-direction: column;
-    margin-top: 150px;
+    margin-top: 50px;
+    width: 100%;
 }
 .lentes-reloj_lentes {
     width: 100%;
@@ -1156,6 +1262,7 @@ height: 100px;
 }
 .Monthlydeals {
     margin-top: 150px;
+    margin-bottom: 75px;
 }
 .Monthlydeals-watches {
     width: 100%;
@@ -1163,6 +1270,7 @@ height: 100px;
     flex-direction: row;
     height: 280px;
     align-items: start;
+    justify-content: space-around;
 }
 .Monthlydeals-watches img {
     width: 50px;
@@ -1216,6 +1324,7 @@ height: 100px;
     flex-direction: column;
     height: 570px;
     margin-bottom: 0;
+    width: 100%;
 }
 .recent-news_img {
     width: 150px;
@@ -1235,9 +1344,11 @@ height: 100px;
 }
 .tipos-reloj {
     width: 100%;
+    justify-content: space-around;
 }
 .tipos-reloj p  {
     font-size: medium;
+    margin: 0;
 }
 .reloj-central-cuadro {
     width: 100%;
