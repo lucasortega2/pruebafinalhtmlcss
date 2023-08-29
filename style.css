@@ -2,17 +2,13 @@
 box-sizing: border-box;
 font-family: 'Taviraj', serif;
 }
-body {
-    display: flex;
-    justify-content: center;
-}
 .body {
 background: #F7F6F4;
 display: flex;
 flex-direction: column;
-width: 1440px;
+max-width: 1110px;
 align-items: center;
-
+margin: auto;
 }
 li {
     list-style: none;
@@ -28,7 +24,7 @@ a {
 
 .header {
 height: 100px;
-min-width: min-content;
+width: 100%;
 color: #333;
 font-size: 20px;
 font-style: normal;
@@ -40,20 +36,20 @@ margin-bottom: 40px;
 .header-1 {
 display: flex;
 justify-content: space-between;  
-margin: 20px 0 250px 0;
+margin: 20px 10px 250px 0;
 height: 50px;
 flex-wrap: wrap;
-width: 1110px;
+width: 100%;
 }
 .header-1-matoa
 {
 width: 178px;
 height: 22px;
 text-align: center;
-margin: auto 0;
+margin: auto 50px;
 }
 .header-1-medio {
-    margin: auto;
+margin: auto;
 display: flex;
 justify-content: space-evenly;
 width: 45%;
@@ -102,15 +98,14 @@ top: 10px;
 left: 10px;
 }
 .reloj-way-general {
-margin: auto;
 height: 510px;
 background: #F1DDC9;
 position: relative;
-width: 1110px;
+width: 100%;
 }
 .reloj-way {
+    width: 100%;
 display: flex;
-min-width: 1100px;
 height: 510px;
 }
 .reloj-way_imagen-reloj {
@@ -278,23 +273,24 @@ flex-shrink: 0;
 
 }
 .lentes-reloj {
-width: 1110px;
+width: 100%;
 margin-top: 100px;
 display: flex;
 height: 270px;
-justify-content: space-between;
+justify-content: space-around;
 }
 
 .lentes-reloj_lentes {
-width: 540px;
+width: 47.5%;
 height: 270px;
 flex-shrink: 0;
 display: flex;
 justify-content: center;
 background-color:#FFFFFF ;
+
 }
 .lentes-reloj_lentes-1 {
-width: 90%;
+width: 100%;
 display: flex;
 flex-direction: column;
 align-items: start;
@@ -373,13 +369,13 @@ font-size: 16px;
 .lentes-reloj_lentes-1 img {
 position: relative;
 left: 169px;
-top: -26px;
-width: 330px;
-height: 143px;
+top: -50px;
+width: 250px;
+height: 130px;
 flex-shrink: 0;
 }
 .lentes-reloj_reloj {
-width: 540px;
+width: 47.5%;
 height: 270px;
 flex-shrink: 0;
 background-color: #FFFFFF;
@@ -420,7 +416,7 @@ width: 155px;
 height: 152px;
 flex-shrink: 0;    
 position: relative;
-left: 336px;
+left: 190px;
 top: -77px;
 width: 150px;
 }
@@ -435,7 +431,7 @@ line-height: 40px; /* 111.111% */
 letter-spacing: 0.72px;
 margin-bottom: 10px;
 position: relative;
-width: 1110px;
+width: 100%;
 }
 .Monthlydeals p {
     text-align: start;
@@ -454,13 +450,8 @@ left: 0;
 display: flex;
 align-items: center;
 justify-content: space-between;
-width: 1110px;
+width: 100%;
 height: 505px;
-flex-shrink: 0;
-}
-.Monthlydeals-watches img {
-width: 221px;
-height: 221px;
 flex-shrink: 0;
 }
 .Monthlydeals-watches p {
@@ -468,7 +459,8 @@ margin: 0;
 }
 .m1 {
 margin: 0;
-width: 255px;
+width: 100%;
+max-width: 240px;
 height: 412px;
 flex-shrink: 0;
 display: flex;
@@ -479,13 +471,17 @@ align-items: center;
 position: relative;
 }
 .m1 img {
+    max-width: 185px;
+    width: 75%;
+    height: 50%;
     position: relative;
     top: -40px;
 }
 
 .m2 {
 margin: 0;
-width: 255px;
+width: 100%;
+max-width: 230px;
 height: 412px;
 flex-shrink: 0;
 display: flex;
@@ -496,12 +492,16 @@ align-items: center;
 position: relative;
 }
 .m2 img {
+    max-width: 185px;
+    width: 75%;
+    height: 50%;
     position: relative;
     top: -40px;
 }
 .m3 {
 margin: 0;
-width: 255px;
+width: 100%;
+max-width: 240px;
 height: 412px;
 flex-shrink: 0;
 display: flex;
@@ -512,12 +512,16 @@ align-items: center;
 position: relative;
 }
 .m3 img {
+    max-width: 185px;
     position: relative;
+    width: 75%;
+    height: 50%;
     top: -40px;
 }
 .m4 {
 margin: 0;
-width: 255px;
+width: 100%;
+max-width: 240px;
 height: 412px;
 flex-shrink: 0;
 display: flex;
@@ -528,6 +532,9 @@ align-items: center;
 position: relative;
 }
 .m4 img {
+    max-width: 185px;
+    width: 75%;
+    height: 50%;
     position: relative;
     top: -40px;
 }
@@ -720,7 +727,7 @@ display: flex;
 justify-content: space-between;
 margin-top:100px ;
 margin-bottom: 200px;
-width: 1110px;
+width: 100%;
 }
 
 .recents-where {
@@ -809,14 +816,13 @@ text-align: center;
 .recent-news_img {
 background-color:#F1DDC9;
 position: relative;
-width: 640px;
-height: 458px;
+width: 420px;
+height: 350px;
 flex-shrink: 0;
-left: 165px;
 }
 .recent-news_img img {
-width: 580px;
-height: 458px;
+width: 420px;
+height: 350px;
 flex-shrink: 0;
 position: relative;
 top: 54px;
@@ -824,9 +830,8 @@ right: 179px;
 }
 .tipos-reloj {
 display: flex;
-width: 1110px;
+width: 100%;
 justify-content: space-between;
-margin: auto;
 }
 .tipos-reloj p {
     width: max-content;
@@ -854,9 +859,8 @@ letter-spacing: 0.72px;
 .reloj-central-cuadro {
 display: flex;
 flex-flow: wrap;
-width: 1110px;
+width: 100%;
 justify-content: center;
-margin: auto;
 }
 .tipos-reloj-central {
 display: flex;
@@ -942,7 +946,7 @@ align-items: center;
     background-color: red;
 }
 .testimonials {
-width:100% ;
+width: 100% ;
 margin-top: 100px;
 display: flex;
 }
@@ -960,7 +964,8 @@ height: 300px;
 flex-shrink: 0;
 position: relative;
 top: 64px;
-left: 151px;
+left: 50px
+
 }
 .testimonials-p {
 margin: auto;
@@ -1026,6 +1031,9 @@ margin-left: 150px;
     background-color: #F7F6F4;
     border: none;
 }
+.instagram {
+    width: 100%;
+}
 .instagram p {
 color: #333;
 font-family: Taviraj;
@@ -1050,6 +1058,8 @@ left: 0;
 .instagram-fotos {
 display: flex;
 justify-content: center;
+width: 100%;
+flex-wrap: wrap;
 margin-bottom: 100px;
 }
 .instagram-fotos img {
@@ -1233,7 +1243,6 @@ letter-spacing: 0.4px;
 .footer-2-4 p {
     margin: 0;
 }
-
 @media screen and (min-width:771px) and (max-width:900px) {
     .footer-1 {
         justify-content: center;
@@ -1243,7 +1252,11 @@ letter-spacing: 0.4px;
         margin: auto;
     } 
 }
-@media screen  and (min-width:771px) and (max-width:1050px) {
+@media screen  and (min-width:771px) and (max-width:1115px) {
+    .img-testimonials img {
+        top: 0;
+        left: 0;
+    }
     .footer2 {
         justify-content: center;
         width: 100%;
@@ -1266,24 +1279,13 @@ letter-spacing: 0.4px;
     }
 }
 
-@media screen and (max-width: 770px){
-* {
-    font-size: small;
-}
-body {
-    width: 100%;
-}
-.body {
-    width:100%;
-}
-.header {
-    width: 100%;
-}
+@media screen and (max-width: 992px){
+    .body {
+        width: 100%;
+        background-color: #fff;
+    }
 .header-1{
-    height: max-content;
-    width:100%;
-    flex-wrap: nowrap;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 .header-1-matoa {
     margin: 0;
@@ -1304,27 +1306,18 @@ margin: 10px;
     width:100%;
     height: max-content;
     display: flex;
-    justify-content: space-between;
-}
-
-.header-1-final * {
-    margin: 5px;
-}
-.header-1-final  > svg {
-    margin-right:150px ;
+    justify-content: space-around;
 }
 .reloj-way-general {
     margin-top:50px ;
-}
-.reloj-way {
-    min-width: 100%;
-}
-.reloj-way-general {
-    width: 100%;
+    margin-bottom: 85px;
 }
 .reloj-way_imagen-reloj img {
-width: 100px;
-height: 100px;
+    margin: auto;
+    width: 36%;
+    max-width:250px ;
+    height: 50%;
+    left: 0;
 }
 #way-kambas {
     font-size: medium;
@@ -1359,13 +1352,21 @@ height: 100px;
 }
 
 .lentes-reloj {
-    flex-direction: column;
-    margin-top: 50px;
+    margin-top: 0;
     width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .lentes-reloj_lentes {
+    min-width: 350px;
     width: 100%;
 }
+.lentes-reloj_reloj {
+    min-width: 350px;
+    width: 100%;
+    justify-content: start;
+}
+
 #luxurious {
     font-size: medium;
 }
@@ -1382,36 +1383,51 @@ height: 100px;
     top: -49px;
 }
 .Monthlydeals {
-    margin-top: 150px;
-    margin-bottom: 75px;
+    margin-top: 250px;
+    margin-bottom: 120px;
 }
 .Monthlydeals-watches {
     width: 100%;
-    flex-flow: wrap;
     flex-direction: row;
-    height: 280px;
+    height: 400px;
     align-items: start;
-    justify-content: space-around;
+    justify-content: center;
+
 }
 .Monthlydeals-watches img {
-    width: 50px;
-    height: 50px;
+    width: 50%;
+    height: 50%;
 }
 .m1 {
-    width: 50px;
-    height: 50px;
+    width: 25%;
+    height: max-content;
+}
+.m1 p {
+    text-align: center;
+ }
+ .m2 p {
+    text-align: center;
+ }
+ .m3 p {
+    text-align: center;
+ }
+.m4 p {
+   text-align: center;
 }
 .m2 {
-    width: 50px;
-    height: 50px;
+    width: 25%;
+    height: max-content;
+}
+.m2-p_add-to-car {
+    left: -34px;
 }
 .m3 {
-    width: 50px;
-    height: 50px;
+    width: 25%;
+    height: max-content;
 }
 .m4 {
-    width: 50px;
-    height: 50px;
+    width: 25%;
+    height: max-content;
 }
 .Monthlydeals-watches p:first-child {
     font-size: medium;
@@ -1423,7 +1439,7 @@ height: 100px;
     position: relative;
     width: max-content;
     top: 32px;
-    left: -13px;
+
 }
 .m2-p_add-to-car p {
     position: absolute;
@@ -1441,23 +1457,21 @@ height: 100px;
     top: -40px;
 }
 .recent-news {
-    margin-top: 150px;
-    flex-direction: column;
-    height: 570px;
-    margin-bottom: 0;
+    margin-top: 0px;
+    height: max-content;
+    margin-bottom: 50px;
     width: 100%;
+    justify-content: center;
 }
 .recent-news_img {
     width: 150px;
     height: 150px;
-    top: -208px;
-    left: 185px;
 }
 .recent-news_img img {
     width: 150px;
     height: 150px;
     top: 30px;
-    right: -30px;
+    right: -8px;
 }
 #recent-news-p {
     margin: 0;
@@ -1467,15 +1481,16 @@ height: 100px;
     justify-content: space-around;
 }
 .tipos-reloj p  {
+    margin: auto;
     font-size: medium;
     margin: 0;
-}
-.reloj-central-cuadro {
-    width: 100%;
 }
 .reloj-central-cuadro img {
     width: 70px;
     height: 70px;
+}
+.tipos-reloj-central {
+    align-items: center;
 }
 #a {
     font-size: medium;
