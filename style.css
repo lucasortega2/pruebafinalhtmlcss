@@ -726,8 +726,8 @@ height: 40px;
 display: flex;
 justify-content: space-between;
 margin-top:100px ;
-margin-bottom: 200px;
 width: 100%;
+margin-bottom: 50px;
 }
 
 .recents-where {
@@ -830,13 +830,11 @@ right: 179px;
 }
 .tipos-reloj {
 display: flex;
-width: 100%;
 justify-content: space-between;
 }
 .tipos-reloj p {
     width: max-content;
 position: relative;
-margin-right: 170px;
 }
 .tipos-reloj p::after {
 background-color: black;
@@ -864,7 +862,6 @@ justify-content: center;
 }
 .tipos-reloj-central {
 display: flex;
-width: 33.3%;
 height: 200px;
 }
 .imagen-tipo-reloj {
@@ -876,6 +873,15 @@ justify-content: center;
 align-items: center;
 background-color: #F1DDC9;
 margin-right:30px ;
+}
+.Maple-series {
+    width: 33.3%;
+}
+.Ebony-series {
+    width: 33.3%;
+}
+.Featured {
+    width: 33.3%;
 }
 .imagen-tipo-reloj img {
 width: 68.067px;
@@ -919,6 +925,18 @@ text-decoration: line-through red;
 width: 113px;
 height: 55px;
 flex-shrink: 0;
+}
+.Maple-series div {
+    margin: 15px 5px;
+}
+.Ebony-series div {
+    margin: 15px 5px;
+}
+.Featured div {
+    margin: 15px 5px;
+}
+.tipos-reloj-central-1 {
+    width: 100%;
 }
 .see-more {
 display:flex;
@@ -1326,22 +1344,28 @@ margin: 10px;
 .reloj-way_add-to-car {
     padding: 0;
     position: absolute;
-    top: 423px;
-    right: 164px;
-    width: 200px;
+    top: 464px;
+    right: 233px;
+    width: 26%;
     height: max-content;
 }
+.reloj-way_add-to-car p {
+    margin: 0;
+    font-size: small;
+    width: 42px;
+}
 .reloj-way_add-to-car_1 {
-    height: 50px;
+    height: 45px;
+    width: 85px;
 }
 .reloj-way_add-to-car_2 {
-    height: 50px;
+    height: 45px;
     width: 50%;
 }
 
 .reloj-way-final_bottom {
-    right: 10px;
-    top: 423px;
+    right: 0px;
+    top: 460px;
     height: max-content;
 }
 .reloj-way_bottom1 {
@@ -1383,22 +1407,26 @@ margin: 10px;
     top: -49px;
 }
 .Monthlydeals {
+    margin: auto;
     margin-top: 250px;
-    margin-bottom: 120px;
+    margin-bottom: 20px;
 }
 .Monthlydeals-watches {
     width: 100%;
     flex-direction: row;
-    height: 400px;
+    height: max-content;
     align-items: start;
     justify-content: center;
-
+    margin-bottom: 150px;
+    flex-wrap: wrap;
 }
 .Monthlydeals-watches img {
+    position: static;
     width: 50%;
     height: 50%;
 }
 .m1 {
+    min-width: 200px;
     width: 25%;
     height: max-content;
 }
@@ -1415,17 +1443,21 @@ margin: 10px;
    text-align: center;
 }
 .m2 {
+    min-width: 200px;
     width: 25%;
     height: max-content;
 }
 .m2-p_add-to-car {
     left: -34px;
 }
+
 .m3 {
+    min-width: 200px;
     width: 25%;
     height: max-content;
 }
 .m4 {
+    min-width: 200px;
     width: 25%;
     height: max-content;
 }
@@ -1436,15 +1468,11 @@ margin: 10px;
     font-size: medium;
 }
 .m2-p_add-to-car {
-    position: relative;
+    position: static;
     width: max-content;
-    top: 32px;
-
 }
 .m2-p_add-to-car p {
-    position: absolute;
-    top: 100%;
-    left: 0;
+    position: static;
     font-size: medium;
     padding: 0;
     width: 90px;
@@ -1452,16 +1480,14 @@ margin: 10px;
     text-align: center;
 }
 .m2-p_add-to-car svg {
-    position: absolute;
-    left: 25px;
-    top: -40px;
+    position: static;
 }
 .recent-news {
     margin-top: 0px;
     height: max-content;
-    margin-bottom: 50px;
     width: 100%;
     justify-content: center;
+    margin-bottom: 0;
 }
 .recent-news_img {
     width: 150px;
@@ -1477,20 +1503,29 @@ margin: 10px;
     margin: 0;
 }
 .tipos-reloj {
-    width: 100%;
     justify-content: space-around;
 }
 .tipos-reloj p  {
     margin: auto;
-    font-size: medium;
     margin: 0;
 }
-.reloj-central-cuadro img {
-    width: 70px;
-    height: 70px;
+.reloj-central-cuadro {
+    
 }
 .tipos-reloj-central {
     align-items: center;
+}
+.Maple-series {
+    min-width:280px ;
+}
+.Ebony-series {
+    min-width: 280px;
+}
+.Featured {
+    min-width: 280px;
+}
+.tipos-reloj-central-1 {
+    margin: 15px 5px;
 }
 #a {
     font-size: medium;
@@ -1504,10 +1539,7 @@ margin: 10px;
     margin: 0;
     font-size: medium;
 }
-.tipos-reloj-central {
-    flex-direction: column;
-    height: 285px;
-}
+
 .see-more {
     font-size: large;
 }
@@ -1578,28 +1610,28 @@ margin-right: 30px;
     display: flex;
     flex-direction: column;
     align-items: start;
-    width: 400px;
+    width: 300px;
     margin: auto;
 }
 .footer-2-2 {
     display: flex;
     flex-direction: column;
     align-items: start;
-    width: 400px;
+    width: 300px;
     margin: auto;
 }
 .footer-2-3 {
     display: flex;
     flex-direction: column;
     align-items: start;
-    width: 400px;
+    width: 300px;
     margin: auto;
 }
 .footer-2-4 {
 display: flex;
 flex-direction: column;
 align-items: start;
-width: 400px;
+width: 300px;
 margin: auto;
 }
 .footer-2-4 p {
