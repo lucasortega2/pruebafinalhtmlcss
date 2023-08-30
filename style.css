@@ -1342,12 +1342,14 @@ margin: 10px;
     line-height: 30px;
 }
 .reloj-way_add-to-car {
+    flex-wrap: wrap;
     padding: 0;
     position: absolute;
     top: 464px;
     right: 233px;
-    width: 26%;
+    width: 135px;
     height: max-content;
+    justify-content: center;
 }
 .reloj-way_add-to-car p {
     margin: 0;
@@ -1360,7 +1362,7 @@ margin: 10px;
 }
 .reloj-way_add-to-car_2 {
     height: 45px;
-    width: 50%;
+    width: 50px;
 }
 
 .reloj-way-final_bottom {
