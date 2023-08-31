@@ -1424,13 +1424,16 @@ margin: 10px;
 }
 .Monthlydeals-watches img {
     position: static;
-    width: 50%;
-    height: 50%;
+    max-width: none;
 }
 .m1 {
-    min-width: 200px;
-    width: 25%;
+    width: 100%;
     height: max-content;
+    max-width: none;
+    margin-bottom: 75px;
+}
+.m1 img {
+    width: 100%;
 }
 .m1 p {
     text-align: center;
@@ -1445,29 +1448,36 @@ margin: 10px;
    text-align: center;
 }
 .m2 {
-    min-width: 200px;
-    width: 25%;
+    width: 100%;
     height: max-content;
+    max-width: none;
+    margin-bottom: 75px;
+}
+.m2 img {
+    width: 100%;
 }
 .m2-p_add-to-car {
     left: -34px;
 }
 
 .m3 {
-    min-width: 200px;
-    width: 25%;
+    width: 100%;
     height: max-content;
+    max-width: none;
+    margin-bottom: 75px;
+}
+.m3 img {
+    width: 100%;
 }
 .m4 {
-    min-width: 200px;
-    width: 25%;
+    width: 100%;
     height: max-content;
+    max-width: none;
+    margin-bottom: 75px;
 }
-.Monthlydeals-watches p:first-child {
-    font-size: medium;
+.m4 img {
+    width: 100%;
 }
-.Monthlydeals-watches p:nth-child(4) {
-    font-size: medium;
 }
 .m2-p_add-to-car {
     position: static;
